@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="hello_text">Hello World!</string>
+    <string name="hello_button">Hello!</string>
+    <string name="goodbye_button">Goodbye!</string>
+    <string name="hello_toast">Hey</string>
+    <string name="goodbye_toast">Bye</string>
+    <string name="enter_name">What\'s your name?</string>
+    <string name="return_button">Go Back</string>
+    <string name="contact_button">Contact</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send_button">Send</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
