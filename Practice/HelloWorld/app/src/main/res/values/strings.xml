@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="hello_text">Welcome!</string>
+    <string name="hello_button">Hello</string>
+    <string name="goodbye_button">Goodbye</string>
+    <string name="hello_toast">Hello I\'m Toast!</string>
+    <string name="goodbye_toast">Goodbye Toast!</string>
+</resources>
