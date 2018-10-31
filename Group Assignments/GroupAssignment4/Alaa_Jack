@@ -1,0 +1,119 @@
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/height_text"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/height_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_Right="@id/height_text"
+        android:hint="@string/height_hint"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radius_text"
+        android:text="@string/radius_txt"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="30dp"
+
+    <EditText
+        android:id="@+id/radius_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_Right="@id/radius_text"
+        android:layout_below="@id/height_edit"
+        android:inputType="numberDecimal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/height_text_new"
+        android:text="@string/height_txt_new"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/height_edit_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/height_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radius_txt_new"
+        android:text="@string/radius_txt_new"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/height_text_new"/>
+
+    <TextView
+        android:id="@+id/radius_edit_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/radius_text_new"
+        android:layout_below="@id/height_edit_new"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/formula_cylinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radius_text_new"
+        android:text="@string/formula"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_text"
+        android:text="@string/result_txt"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/formula_cylinder"/>
+
+    <TextView
+        android:id="@+id/result_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/result_text"
+        android:layout_below="@id/formula_cylinder"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:text="@string/go_home"/>
+
+
+</manifest>
+<resources>
+    <string name="app_name">Volume</string>
+    <string name="height_txt">Enter height of cylinder: </string>
+    <string name="radius_txt">Enter radius of cylinder: </string>
+    <string name="height_txt_new">Entered height: </string>
+    <string name="radius_txt_new">Entered radius: </string>
+    <string name="formula">The formula for volume of cylinder: \r * r * h</string>
+    <string name="result_txt">The result: </string>
+    <string name="height_hint">Cylinder Height</string>
+    <string name="radius_hint">Cylinder Radius</string>
+</resources>
