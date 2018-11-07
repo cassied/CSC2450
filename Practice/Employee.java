@@ -123,4 +123,10 @@ public class Employee {
             e.printStackTrace();
         }
     }
+  
+  
+    @Override
+    public String toString() {
+        return this.firstName + " " + this.lastName;
+    }
 }
